@@ -30,8 +30,3 @@ def Summarize():
         return render_template("index.html",result=output["summary_text"])
     else:
         return render_template("index.html")
-
-
-if __name__ == '__main__':
-    app.debug=True
-    app.run()
